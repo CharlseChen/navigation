@@ -5,3 +5,7 @@
 Homestead.json
 Homestead.yaml
 .env
+.DS_Store
+database/.DS_Store
+database/back/.DS_Store
+.gitignore
