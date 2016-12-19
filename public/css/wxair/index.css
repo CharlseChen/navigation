@@ -1,0 +1,95 @@
+@import "bootstrap.min.css";
+html{
+    font-size: 100%;
+}
+body {
+    font-family: "\5FAE\8F6F\96C5\9ED1","Microsoft Yahei",tahoma,"Hiragino Sans GB",Arial,Helvetica,sans-serif,"微软雅黑",宋体;
+    font-size: 1.0rem;
+    line-height: 1.42857143;
+    color: #333333;
+    background-color: #EEEEEE;
+    -webkit-font-smoothing: antialiased;
+}
+.section{
+    background: #EEEEEE url("../../img/bg.jpg") center no-repeat;
+    -webkit-background-size:cover;
+    background-size:cover;
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 7vh;
+    margin:0 auto;
+}
+.form-box form label{
+    font-weight: 400;
+}
+.img-tit{
+    width: 72%;
+    display: block;
+    margin:0px auto;
+}
+.img-100{
+    width: 100%;
+    height: auto;
+}
+.form-box{
+    width: 100%;
+}
+.form-box form{
+    width: 50%;
+    min-width: 220px;
+    margin: 0 auto;
+    margin-top: 10vh;
+}
+.form-box form label{
+    text-align: right;
+    padding-top: 10px;
+}
+.btn-baoming{
+    margin:0 auto;
+    display: block;
+    width: 100px;
+    line-height: 30px;
+    font-size: 1rem;
+    padding:0;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+}
+.padding-lr-0{
+    padding-left: 0;
+    padding-right: 0;
+}
+.padding-r-0{
+    padding-right:0;
+}
+.form-box .form-control{
+    outline: 0;
+    border:0;
+    border-bottom: 1px solid #333;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    background-color: transparent;
+    -webkit-border-radius:0;
+    -moz-border-radius:0;
+    border-radius:0;
+}
+.form-group{
+    margin-bottom: 5px;
+}
+label.error{
+    font-size: .8em;
+    color: red;
+    text-align: right;
+}
+.btn-baoming{
+    margin-top: 10vh;
+    display: block;
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    background: transparent url("../../img/baoming-btn.png") center no-repeat;
+    -webkit-background-size:contain;
+    background-size:contain;;
+}
